@@ -18,12 +18,12 @@ const sampleRecipes = [
     instructions: "1. Put salt on Chicken\n2. Put chicken in oven\n3. Eat the chicken",
     ingredients: [
       {
-        id:1;
+        id:1,
         name: "Chicken",
         amount: "2 pounds"
       },
       {
-        id: 1;
+        id: 2,
         name: "Salt",
         amount: "1 Tbs"
       }
@@ -37,12 +37,12 @@ const sampleRecipes = [
     instructions: "1. Put paprika on pork\n2. Put pork in oven\n3. Eat the pork",
     ingredients: [
       {
-        id: 1;
+        id: 1,
         name: "Pork",
         amount: "3 pounds"
       },
       {
-        id: 1;
+        id: 2,
         name: "Paprika",
         amount: "2 Tbs"
       }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import IngredientList from './ingredientList';
 
 export default function Recipe(props) {
 
@@ -6,7 +7,8 @@ export default function Recipe(props) {
     name,
     cookTime,
     servings,
-    instructions
+    instructions,
+    ingredients
   } = props
 
   return (
@@ -31,6 +33,12 @@ export default function Recipe(props) {
         <div>
           {instructions}
           </div>
+      </div>
+      <div>
+        <span>Ingredients</span>
+        <div>
+        <IngredientList ingredients={ingredients} />
+        </div>
       </div>
     </div>
   )
