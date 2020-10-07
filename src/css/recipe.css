@@ -41,3 +41,7 @@ margin-right:5px;
 .recipe__instructions {
   white-space:pre-wrap;
 }
+
+.border-green {
+  border:solid 1px green;
+}

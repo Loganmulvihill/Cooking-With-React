@@ -21,7 +21,7 @@ const { handleRecipeDelete, handleRecipeSelect } = useContext(RecipeContext);
   }, [])
 
   return (
-    <div className="recipe">
+    <div className="recipe border-green">
       <div className="recipe__header">
         <h3 className="recipe__title">{name}</h3>
         <div>
